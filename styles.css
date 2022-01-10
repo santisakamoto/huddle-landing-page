@@ -1,0 +1,16 @@
+    body {
+        background-image: url(/images/bg-mobile.svg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: violet;
+    }
+    
+    h1 {
+        font-family: Poppins;
+    }
+    
+    p,
+    button {
+        font-family: Open Sans;
+    }
