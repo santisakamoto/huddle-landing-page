@@ -6,11 +6,44 @@
         background-color: violet;
     }
     
+    .mainlogo {
+        width: 10em;
+        margin-top: 30px;
+        margin-left: 45px;
+    }
+    
+    .maincontent {
+        display: flex;
+        margin-top: 30px;
+    }
+    
+    .mainimage {
+        width: 55%;
+        margin: 40px 50px;
+    }
+    
+    .text {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    
     h1 {
         font-family: Poppins;
+        color: white;
     }
     
     p,
     button {
         font-family: Open Sans;
+        color: white;
+    }
+    
+    button {
+        color: hsl(300, 69%, 71%);
+        border-radius: 25px;
+        border-style: none;
+        font-size: 20px;
+        padding: 10px 55px;
+        align-self: flex-start;
     }
